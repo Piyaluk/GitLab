@@ -4,11 +4,11 @@ void main()
 { char Name[40], G[5], answer[10];
   int i;
     printf("Hello my name is Noey.\n");
-  do
+  do 
   {
     printf("What is your Name? ");
     scanf("%s", Name);
-    do
+    do //Incorrect answer
     {
       printf("What is your blood group [A, B, AB, or O]? ");
       scanf("%s", G);
@@ -22,6 +22,7 @@ void main()
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 );
+    //correct answer
     if (strcmp(G,"A") ==0)
     {
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
