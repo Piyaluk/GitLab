@@ -3,6 +3,7 @@
 void main()
 { char Name[40], G[5], answer[10];
   int i;
+    printf("Hello my name is Noey.\n");
   do
   {
     printf("What is your Name? ");
