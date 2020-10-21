@@ -3,7 +3,8 @@
 void main()
 { char Name[40], G[5], answer[10];
   int i;
-    printf("Hello my name is Noey.\n");
+    printf("Welcome to Blood Group Program\n");
+    printf("Test TEst TESt TEST\n");
   do
   {
     printf("What is your Name? ");
