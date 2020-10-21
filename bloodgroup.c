@@ -3,13 +3,19 @@
 void main()
 { char Name[40], G[5], answer[10];
   int i;
+<<<<<<< HEAD
     printf("Welcome to Blood Group Program\n");
     printf("Test TEst TESt TEST\n");
   do
+=======
+    printf("Tadam !!\n");
+    printf("Hello my name is WaraNoey.\n");
+  do 
+>>>>>>> 26f0403aa5121e86c82f47fdd6915ce7a1ce6809
   {
     printf("What is your Name? ");
     scanf("%s", Name);
-    do
+    do //Incorrect answer
     {
       printf("What is your blood group [A, B, AB, or O]? ");
       scanf("%s", G);
@@ -23,6 +29,7 @@ void main()
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 );
+    //correct answer
     if (strcmp(G,"A") ==0)
     {
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
